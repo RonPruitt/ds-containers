@@ -15,7 +15,6 @@ RUN pip install virtualenv
 RUN /usr/local/bin/virtualenv /opt/ds --distribute
 
 ADD /requirements/ /tmp/requirements
-ADD python2/requirements.txt /tmp/requirements/additional-reqs.txt
 
 RUN /opt/ds/bin/pip install -r /tmp/requirements/pre-requirements.txt
 RUN /opt/ds/bin/pip install -r /tmp/requirements/requirements.txt
