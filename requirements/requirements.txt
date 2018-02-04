@@ -2,6 +2,7 @@ jupyter
 pyzmq
 scipy
 pandas
+pandas-datareader
 matplotlib
 statsmodels
 scikit-learn
@@ -14,3 +15,4 @@ networkx
 theano
 requests
 beautifulsoup4
+scrapy
